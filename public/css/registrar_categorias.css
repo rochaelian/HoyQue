@@ -1,0 +1,39 @@
+/************* Main section form *************/
+
+
+section h2{
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    margin-bottom: 30px;
+}
+
+section #regpc{
+    margin-left: 10px;
+}
+
+
+section label{
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+section #botonRegistrar{
+    margin-top: 10px;
+    margin-left: 422px;
+}
+
+section #botonActualizari, section #botonActualizar{
+    margin-top: 10px;
+    margin-left: 417px;
+}
+
+section #botonRegistrari{
+    margin-top: 10px;
+    margin-left: 421px; 
+}
+
+section input{
+    width: 273px;
+}

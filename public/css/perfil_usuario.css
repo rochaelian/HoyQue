@@ -1,0 +1,306 @@
+.grid-tres-modificado {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 200px 380px 380px;
+}
+
+.grid-uno-dos-uno-modificado {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 200px 560px 200px;
+}
+
+.grid-tres-modificado .columna,
+.grid-uno-dos-uno-modificado .columna {
+    padding: 20px 5px;
+}
+
+.grid-tres-modificado .columna:first-child,
+.grid-uno-dos-uno-modificado .columna:first-child {
+    background-color: #fafafa;
+    padding: 20px 10px;
+    border: 1px solid #f2f2f2;
+}
+
+div#EncabezadoPerfil {
+    margin-bottom: 20px;
+}
+
+.acciones{
+    width: 115px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.acciones li {
+    display: inline-block;
+    width: 16px;
+    margin-left: 10px;
+}
+
+.sidebar-usuario .subir-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 85px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+}
+
+.sidebar-usuario .subir-imagenes img {
+    height: 110px;
+}
+
+.sidebar-usuario p {
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar-usuario p span {
+    font-weight: normal;
+}
+
+.ocultar{
+display: none;
+}
+
+/* Actividades y Lugares */
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.entrada-actividad,
+.entrada-lugar {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.entrada-sin-lugar {
+    padding: 10px 0;
+}
+
+.lado-izq,
+.lado-der {
+    float: left;
+}
+
+.lado-izq .subir-imagenes {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.centro .subir-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    float: left;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border: 1px solid #e5e5e5;
+}
+
+.lado-der {
+    margin-left: 20px;
+    width: 380px;
+}
+
+.lado-izq .subir-imagenes img {
+    width: 150px;
+    height: auto;
+}
+
+.centro .subir-imagenes img {
+    height: 70px;
+}
+
+.caracteristicas-Activ li {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    border-left: 1px solid #e5e5e5;
+}
+
+.caracteristicas-Activ li:first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.entrada-actividad p,
+.entrada-lugar p {
+    padding: 10px 0;
+}
+
+.btn-mini {
+    height: 26px;
+    margin-left: 10px;
+}
+
+.posicion-btn-mini {
+    margin-top: 10px;
+    text-align: right;
+    position: relative;
+}
+
+.acciones-lista {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#listaLugares .acciones-lista {
+    margin-right: 0px;
+    margin-bottom: 5px;
+}
+
+#listaLugares .centro h4 {
+    margin-top: 5px;
+    text-align: right;
+    min-height: 30px;
+}
+
+.acciones-lista li {
+    display: inline-block;
+    width: 16px;
+    margin-left: 10px;
+}
+
+/* Menu Secundario */
+.menu-secundario a {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* Rating */
+.rating.nota-listada {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #ddd;
+    height: 25px;
+    position: absolute;
+    right: 115px;
+    top: 5px;
+}
+
+.rating.nota-lado {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #ddd;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.rating.nota-listada label,
+.rating.nota-lado label {
+    width: 18px;
+}
+
+.rating.nota-listada label i,
+.rating.nota-lado label i {
+    font-size: 16px;
+}
+
+.rating.nota-listada p,
+.rating.nota-lado p {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Carta Usuarios */
+.carta-panel {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #d5d5d5;
+    height: 131px;
+    margin-bottom: 30px;
+}
+
+.carta-panel:hover {
+    background-color: #fbfbfb;
+}
+
+.icono-panel {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    border: 2px solid #f7882f;
+    float: left;
+    text-align: center;
+}
+
+.icono-panel i {
+    font-size: 35px;
+    color: #f7882f;
+    padding: 22.5px 0;
+}
+
+.texto-panel {
+    float: left;
+    padding-left: 20px;
+}
+
+.texto-panel h2 {
+    padding: 15px 0 10px 0;
+    font-size: 26px !important;
+}
+
+.columna .texto-panel p {
+   color: #333;
+   font-weight: normal;
+   text-align: left;
+}
+
+/*Agregado sst*/
+
+.habilitar{
+
+    color:#4cd137;
+    
+    
+    }
+    
+    .deshabilitar{
+    
+        color:red;
+    }
+
+/****Manuel Delgado****/
+/* Rating System */
+div.ratingActividad {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+b.rating-number,
+output {
+    margin-right: 10px;
+    color: #888;
+}
+
+div.rating {
+    display: inline;
+}
+/****Manuel Delgado****/
+
+/* Daniel */
+ul.cancelar-reserva  {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#lista-actividades h4 {
+    font-weight: normal;
+    line-height: 1.4;
+}

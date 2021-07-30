@@ -1,0 +1,55 @@
+.error_input{
+    border: 2px solid #eb4d4b;  
+}
+
+form#passRecuperar h1{
+   
+    width: 500px;
+}
+
+form#passRecuperar{
+    width: 500px;
+    height: 300px;
+    margin: 75px 0px 0px 250px;
+}
+
+form#passRecuperar input{
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 145px;
+    margin-top: -24px;
+}
+
+/*
+a#aInicioSesion{
+    margin-left: 300px;
+}
+
+*/
+
+p{
+
+    font-size: 1.2em;
+    
+    text-align: center;
+    width: 782px;
+    margin-left: -150px;
+    margin-bottom: 25px;
+
+}
+
+button#btnEnviar{
+    height: 34px;
+    padding: 0 20px;
+    background-color: #f7882f;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 0px 190px;
+}
+
+button#btnEnviar:hover{
+    background-color: #f57209;
+}

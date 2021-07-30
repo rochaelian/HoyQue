@@ -1,0 +1,23 @@
+{
+  "name": "proyecto_hoyque",
+  "version": "1.0.0",
+  "description": "Proyecto de Software Camaleon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Manuel Delgado",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.5",
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "serve-static": "^1.13.2"
+  }
+}

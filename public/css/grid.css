@@ -1,0 +1,57 @@
+/***** Grid *****/
+.grid-uno {
+    display: grid;
+}
+
+.grid-dos {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 490px 490px;
+}
+
+.grid-tres {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 320px 320px 320px;
+}
+
+.grid-cuatro {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 235px 235px 235px 235px;
+}
+
+.grid-tres-uno {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 745px 235px;
+}
+
+.grid-uno-dos {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-template-columns: 340px 620px;
+}
+
+.grid-dos-uno {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 660px 320px;
+}
+
+.grid-uno-dos-uno {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 235px 470px 235px;
+}
+
+.form-principal .grid-interno {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-listar {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 235px 575px 150px;
+}

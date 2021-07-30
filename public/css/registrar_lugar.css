@@ -1,0 +1,72 @@
+/***** Registrar Lugar *****/
+
+.form-principal {
+    margin: 30px 0;
+}
+
+label {
+    width: 150px;
+    margin-right: 20px;
+}
+
+label.ubicacion-label {
+    float: left;
+    padding-top: 8px;
+}
+
+.registrar-input {
+    width: 315px;
+}
+
+.registrar-input.ocultar {
+    display: none;
+}
+
+.registrar-texto {
+    width: 315px;
+}
+
+.registrar-imagen {
+    width: 315px;
+}
+
+.cargar-mapa {
+    margin-left: 173px;
+    height: 200px;
+    text-align: right;
+    border: 1px solid #bbb;
+}
+
+.cargar-mapa.error-input {
+    border: 1px solid #eb4d4b;
+}
+
+.contenedor-btn {
+    width: 1000px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contenedor-imagen {
+    width: 317px;
+    margin-left: 173px;
+    text-align: center;
+}
+
+.contenedor-imagen .cargar-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 317px;
+    height: 200px;
+    border: 1px dashed #bbb;
+}
+
+.contenedor-imagen .cargar-imagen img{
+    width: 317px;
+}
+
+.btn-imagen {
+    width: 317px;
+}

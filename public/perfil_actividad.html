@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>
+        ¿Hoy Qué? - Actividad
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="¿Hoy Qué? - Tu espacio virtual para conocer lo que habrá hoy en Costa Rica">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+13px">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <!--Hojas de estilos generales-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Hojas de estilos personalizadas para cada página-->
+    <!--AQUI CSS <link rel="stylesheet" href="css/index.css">-->
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-fondo">
+        <div class="header-principal">
+            <div class="header-izquierdo">
+                <a href="index.html">
+                    <img src="imgs/Logo_HoyQue.png" class="logo-principal" alt="Logo ¿Hoy Qué?">
+                </a>
+            </div>
+            <div class="header-derecho">
+                <!-- Nav Menu -->
+                <nav class="nav-principal">
+                    <ul class="nav-lista">
+                        <li>
+                            <a class="ocultar" href="listar_usuarios.html">Usuarios</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="lugares.html">Lugares</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_actividades.html">Actividades</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_patrocinadores.html">Patrocinadores</a>
+                        </li>
+                        <li>
+                            <a class="ocultar menu-usuario" href="perfil_cliente.html">
+                                <figure class="header-usuario">
+                                    <img id="imagenMenu" src="imgs/usuario.png" alt="Usuario">
+                                </figure>
+                                <span id="nombreUsuario"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="inicio_sesion.html">Cerrar Sesión</a>
+                            <!--antes estaba cerrar-sesion-->
+                        </li>
+                        <li>
+                            <a href="registro_usuario.html">Regístrate</a>
+                        </li>
+                        <li>
+                            <a href="inicio_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor-no-busca">
+    </div>
+
+    <!-- Main -->
+    <main id="actividad">
+        <section class="grid-uno">
+            <figure class="contenedor-img-expandida">
+                <img src="" alt="" id="imagenActividad">
+            </figure>
+        </section>
+        <section class="grid-tres-uno actividad-main">
+            <section class="actividad-info-general">
+                <h1 id="tituloActividad"></h1>
+                <!-- <ul id="accionesActividad" class="acciones">
+                    <li><a href=""><i class="fas fa-ban"></i></a></li>
+                    <li><a href=""><i class="far fa-times-circle"></i></a></li>
+                    <li><a href=""><i class="far fa-edit"></i></a></i></li>
+                    <li><a href=""><i class="far fa-trash-alt"></i></a></i></li>
+                </ul> -->
+                <ul class="info-actividad first">
+                    <li>Lugar: <span id="lugarActividad"></span></li>
+                    <li>Fecha: <span id="fechaActividad"></span></li>
+                    <li>Horario: <span id="horarioActividad"></span></li>
+                </ul>
+                <ul class="info-actividad">
+                    <li>Categoría: <span id="categoriaActividad"></span></li>
+                </ul>
+                <p id="descripcionActividad"></p>
+                <p id="palabras-clave-actividad">Palabras clave: <span id="palabrasActividad"></span></p>
+            </section>
+            <section class="actividad-seguir">
+                <div class="contenedor-rating nota-titular">
+                    <b id="numeroRatingPerfil" class="rating-number"></b>
+                    <div class="rating">
+                        <input id="ratingPerfil5" type="radio" name="ratingPerfil" value="5" disabled /><label for="ratingPerfil5"><i
+                                class="fas fa-3x fa-star"></i></label>
+                        <input id="ratingPerfil4" type="radio" name="ratingPerfil" value="4" disabled /><label for="ratingPerfil4"><i
+                                class="fas fa-3x fa-star"></i></label>
+                        <input id="ratingPerfil3" type="radio" name="ratingPerfil" value="3" disabled /><label for="ratingPerfil3"><i
+                                class="fas fa-3x fa-star"></i></label>
+                        <input id="ratingPerfil2" type="radio" name="ratingPerfil" value="2" disabled /><label for="ratingPerfil2"><i
+                                class="fas fa-3x fa-star"></i></label>
+                        <input id="ratingPerfil1" type="radio" name="ratingPerfil" value="1" disabled /><label for="ratingPerfil1"><i
+                                class="fas fa-3x fa-star"></i></label>
+                    </div>
+                </div>
+                <!-- <button id="btnSeguirActividad" type="button" class="btn-dos">Dejar de Seguir</button> -->
+                <section id="patrocinador">
+                    <h4>Patrocinador:</h4>
+                    <div id="logo-patrocinador">
+                        <figure><img src="imgs/automercado.png" alt="" id="imgPatrocinador"></figure>
+                    </div>
+                    <div id="info-patrocinador">
+                        <h5 id="patrocinadorActividad"></h5>
+                        <p id="aportePatrocinador"></p>
+                    </div>
+                </section>
+
+            </section>
+        </section>
+        </section>
+        <section class="grid-tres-uno comentarios-actividad">
+            <form>
+                <div>
+                    <h4>Comentarios y Calificaciones</h4>
+                    <div class="lista-comentarios" id="listaComentarios"></div>
+                </div>
+                <div>
+                    <div class="agregar-comentario">
+                        <h4>Agregar comentario y calificación</h4>
+                        <label class="posicion-comentario" for="registrarComentario">Comentario:</label>
+                        <textarea id="registrarComentario" placeholder="Escriba el comentario..."></textarea>
+                        <label class="posicion-calificacion">Calificación:</label>
+                        <div class="contenedor-rating">
+                            <output id="numeroRating" class="rating-number">0</output>
+                            <div id="agregarRating" class="rating">
+                                <input id="ratingComentario5" type="radio" name="ratingComentario" value="5" /><label
+                                    for="ratingComentario5"><i class="fas fa-3x fa-star registrar-estrella" data-valor="5"></i></label>
+                                <input id="ratingComentario4" type="radio" name="ratingComentario" value="4" /><label
+                                    for="ratingComentario4"><i class="fas fa-3x fa-star registrar-estrella" data-valor="4"></i></label>
+                                <input id="ratingComentario3" type="radio" name="ratingComentario" value="3" /><label
+                                    for="ratingComentario3"><i class="fas fa-3x fa-star registrar-estrella" data-valor="3"></i></label>
+                                <input id="ratingComentario2" type="radio" name="ratingComentario" value="2" /><label
+                                    for="ratingComentario2"><i class="fas fa-3x fa-star registrar-estrella" data-valor="2"></i></label>
+                                <input id="ratingComentario1" type="radio" name="ratingComentario" value="1" /><label
+                                    for="ratingComentario1"><i class="fas fa-3x fa-star registrar-estrella" data-valor="1"></i></label>
+                            </div>
+                        </div>
+                        <div class="posicion-btn">
+                            <button id="btnCalificar" class="btn-uno">Calificar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <section id="reservar-actividad">
+                <h4>Precio: <b id="precioActividad"></b><span id="monedaActividad"></span></h4>
+                <h4>Cupos totales: <b id="cupoActividad"></b></h4>
+                <h4>Cupos disponibles: <b id="disponibleActividad"></b></h4>
+                <!-- <button id="btnReservar" type="button" class="btn-dos">Reservar actividad</button>
+            <button id="btnCancelarReservacion" type="button" class="btn-dos">Cancelar reservación</button> -->
+            </section>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-fondo">
+        <div class="footer-principal">
+            <div class="footer-izquierda">
+                <div class="logos-footer">
+                    <a href="camaleon.html" target="_blank">
+                        <img src="imgs/Logo_Camaleon.png" class="logos logo-camaleon" alt="Logo Camaleón">
+                    </a>
+                </div>
+                <div class="logos-footer">
+                    <img src="imgs/UCenfotec.png" class="logos" alt="Logo U Cenfotec">
+                </div>
+            </div>
+            <div class="footer-derecha">
+                <p>Para más información: admin@hoyque.co.cr</p>
+                <div class="redes-sociales">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p>© 2018 Camaleón, Inc.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Java Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.1/sweetalert2.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="js/svcs_imagen.js"></script>
+    <script src="js/svcs_reg_usuario.js"></script>
+    <script src="js/cntlr_nav.js"></script>
+    <script src="js/svcs_patrocinadores.js"></script>
+    <script src="js/svcs_listar_actividades.js"></script>
+    <script src="js/svcs_bitacora.js"></script>
+    <!-- <script src="js/cntlr_listar_actividades.js"></script> -->
+    <script src="js/cntlr_actividad.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+</body>
+
+</html>

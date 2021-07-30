@@ -1,0 +1,617 @@
+/***** General *****/
+p, li {
+    line-height: 1.4;
+}
+button, a {
+    cursor: pointer;
+}
+h5 {
+    font-weight: bold;
+}
+
+/***** Registrar una actividad *****************/
+#registro-actividades header {
+    margin-bottom: 45px;
+}
+#registro-actividades label {
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+}
+#registro-actividades input {
+    width: 300px;
+}
+#registro-actividades textarea {
+    height: 50px;
+    width: 300px;
+}
+#registro-actividades div {
+    margin-bottom: 15px;
+}
+#registro-actividades label.rdLabel {
+    width: 60px;
+}
+#registro-actividades input.rdLabel {
+    width: 60px;
+}
+#registro-actividades form {
+    margin-bottom: 35px;
+}
+.btnCentrado {
+    justify-items: center;
+}
+#registro-actividades div#image_upload figure, #registro-actividades div#image_upload button {
+    float: right;
+    margin-right: 17px;
+}
+#registro-actividades div#image_upload label {
+    margin-top: 50px;
+}
+#registro-actividades figure.image_holder, #registro-actividades button.boton_imagen {
+    width: 300px;
+}
+#registro-actividades img#registrarImagen {
+    width: 100%;
+}
+
+#registro-actividades ul.flexdatalist-multiple {
+    display: inline-block;
+    width: 300px;
+}
+
+#registro-actividades input.flexdatalist-alias {
+    width: 280px;
+}
+
+/**** Listar Actividades *********/
+main#listar-actividades header.header-pagina {
+    margin-bottom: 25px;
+}
+
+main#listar-actividades div.quick-info h3, main#listar-actividades div.quick-info button {
+    display: inline-block;
+}
+
+main#listar-actividades div.quick-info h3 {
+    margin-right: 10px;
+}
+
+main#listar-actividades div.quick-info button  {
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 3px 5px;
+    background-color: #ececec;
+}
+
+main#listar-actividades div.quick-info button:hover  {
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    color: #aaa;
+}
+
+section.actividad {
+    border-top: 1px solid #ececec;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+section.actividad .imgContainer {
+    max-width: 225px;
+}
+.imgContainer img {
+    width: 100%;
+}
+div.quick-info ul li{
+    display: inline;
+    list-style: none;
+    border-right: 1px solid #ececec;
+    padding-right: 20px;
+}
+div.quick-info ul li:last-child{
+    padding-right: 0;
+    border-right: none;
+}
+div.quick-info ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+div.rating {
+    display: inline;
+}
+b.rating-number {
+    margin-right: 10px;
+}
+button.btnReservarActividad, button.btnBorrarActividad {
+    width: 110px;
+}
+section.actividad input {
+    height: 16px;
+}
+section.actividad h3, section.actividad h4 {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: bold;
+}
+section.actividad button {
+    margin-top: 10px;
+}
+section.actividad h4, section.actividad-seguir h4 {
+    margin-bottom: 10px;
+}
+
+.form-buscador .btn-buscador {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    font-size: 20px;
+    color: #f7882f;
+    padding: 6px;
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.form-buscador .btn-buscador:hover {
+    background: #f4f4f4;
+    border: 1px solid #f4f4f4;
+}
+
+.form-buscador .busca-fechas {
+    color: #757575;
+}
+
+/***** Estrellas ********/
+.rating {
+	direction: rtl;
+	unicode-bidi: bidi-override;
+	color: #ddd; /* Personal choice */
+}
+.rating i {
+    font-size: 16px;
+}
+.rating input {
+	display: none;
+}
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked + label,
+.rating input:checked + label ~ label {
+	color: #ffc107; /* Personal color choice. Lifted from Bootstrap 4 */
+}
+
+/***** Listar Usuarios ********/
+section#filtros {
+    margin: 20px 0;
+}
+section#lista-clientes img {
+    width: 50px;
+}
+/* section.btn-lista-usuarios {
+    justify-self: end;
+} */
+section.tipo-usuario label {
+    margin-right: 15px;
+}
+section.tipo-usuario input {
+    margin-right: 40px;
+}
+
+/***** Camaleon ****/
+body#camaleon {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+body#camaleon {
+    color: #242a31;
+}
+body#camaleon .container , body#camaleon header, body#camaleon footer  {
+    background-color: #111e29;
+}
+body#camaleon footer {
+    color: #fff;
+    text-align: end;
+}
+body#camaleon main {
+    padding-bottom: 60px;
+    padding-top: 30px;
+}
+body#camaleon footer h5 {
+    padding: 30px 10px;
+    margin: 0;
+}
+body#camaleon h1, body#camaleon h2, body#camaleon h3 {
+    color: #af111c;
+    font-family: 'Roboto', sans-serif;
+}
+body#camaleon h1, body#camaleon h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #1f252b;
+    /* padding-bottom: 20px; */
+}
+body#camaleon h4 {
+    color: #2c3842;
+    font-family: 'Roboto', sans-serif;
+}
+body#camaleon header, body#camaleon main, body#camaleon footer {
+    margin: 0 auto;
+    width: 1024px;
+}
+body#camaleon section#aplicacion h2 {
+    color: #fff;
+    text-align: end;
+    margin-top: 130px;
+    font-family: 'Roboto', sans-serif;
+}
+body#camaleon section#aplicacion h2 a {
+    color: #ffc107;
+}
+body#camaleon section#aplicacion h2 a:hover {
+    color: #ff7f07;
+}
+body#camaleon main {
+    background-color: #fff;
+}
+body#camaleon strong {
+    font-weight: bold;
+}
+body#camaleon header figure img {
+    width: 150px;
+    padding: 25px 25px 25px 10px;
+    margin-left: 10px;
+}
+body#camaleon section.integrante img {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border: 10px solid #ccc;
+    filter: grayscale(100%);
+
+}
+body#camaleon section.integrante {
+    margin-top: 20px;
+}
+body#camaleon section.otra-info{
+    margin-top: 13px;
+}
+body#camaleon h2 {
+    font-size: 37px;
+}
+body#camaleon h3 {
+    font-size: 28px;
+}
+body#camaleon h4 {
+    font-size: 21px;
+}
+body#camaleon h5 {
+    font-size: 16px;
+}
+body#camaleon h1, body#camaleon h2, body#camaleon h3, body#camaleon h4, body#camaleon h5, body#camaleon p, body#camaleon li {
+    line-height: 1.5;
+}
+body#camaleon h1, body#camaleon h2, body#camaleon h3, body#camaleon h4, body#camaleon h5 {
+    font-weight: bold;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+}
+body#camaleon ul, body#camaleon ol {
+    margin-left: 20px;
+}
+body#camaleon ul li {
+    list-style-type: disc;
+}
+body#camaleon ol li {
+    list-style: decimal;
+}
+body#camaleon section.indent {
+    margin: 0 12px;
+}
+
+body#camaleon .break {
+    border-bottom: 5px solid #1f252b;
+    padding-bottom: 30px;
+}
+
+/***** Actividad **********/
+figure.contenedor-img-expandida {
+    width: 1000px;
+}
+figure.contenedor-img-expandida img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+/***** Perfiles: Lugares / Actividades *****/
+
+.contenedor-img-expandida {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+}
+main#actividad h1 {
+    font-size: 28px;
+}
+.grid-dos-uno-mini {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 490px 235px;
+}
+section.actividad-info-general ul.first {
+    margin-bottom: 10px;
+}
+section.actividad-info-general ul {
+    margin-bottom: 25px;
+}
+section.actividad-info-general ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+section.actividad-info-general ul.info-actividad li {
+    padding-right: 15px;
+    border-right: 1px solid #ececec;
+}
+section.actividad-info-general ul li:last-child {
+    border-right: none;
+}
+p#palabras-clave-actividad {
+    margin-top: 15px;
+}
+section.actividad-seguir {
+    margin-top: 25px;
+}
+section.actividad-seguir b, div.rating-actividad b, div#agregar-calificacion b {
+    margin-right: 10px;
+}
+section.actividad-seguir button {
+    margin-top: 15px;
+}
+#logo-patrocinador {
+    width: 100px;
+    margin-right: 10px;
+    float: left;
+}
+#info-patrocinador {
+    width: 125px;
+    float: right;
+}
+section#patrocinador {
+    margin-top: 30px;
+}
+section#patrocinador h4 {
+    margin-bottom: 15px;
+}
+section#patrocinador img {
+    width: 100%;
+}
+section#patrocinador h5 {
+    margin-top: 0;
+}
+section.comentarios-actividad {
+    margin-top: 25px;
+}
+section#reservar-actividad b, section#reservar-actividad span {
+    float: right;
+}
+section#reservar-actividad span {
+    margin-right: 5px;
+}
+section#reservar-actividad h4 {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+section#reservar-actividad h4.last {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+ul#usuarios-reservados {
+    list-style: disc;
+}
+ul#usuarios-reservados li {
+    margin-left: 20px
+}
+section#reservar-actividad h4#disponible-actividad {
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+section.actividad-main, section.comentarios-actividad {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 20px;
+}
+.entrada-comentario {
+    margin: 20px 0;
+}
+section.comentarios-actividad h4 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+div.rating-actividad button.btnBorrarComentario {
+    margin-top: 10px;
+}
+div.agregar-comentario {
+    margin-top: 15px;
+}
+div.agregar-comentario textarea {
+    width: 100%;
+    margin-top: 15px;
+}
+
+button#btnAgregarComentario {
+    width: 150px;
+    margin-top: 15px;
+    justify-self: end;
+}
+
+/* Comentarios */
+
+
+
+.lista-comentarios,
+.agregar-comentario {
+    margin-bottom: 20px;
+}
+
+.entrada-comentario,
+.entrada-actividad {
+    padding: 10px 0;
+    border-bottom: 1px solid #b2bec3;
+}
+.entrada-comentario p {
+    margin-bottom: 20px;
+}
+.entrada-comentario label,
+.agregar-comentario label {
+    /* width: 745px; */
+    margin-bottom: 10px;
+}
+
+.entrada-comentario label {
+    font-weight: bold;
+}
+
+.agregar-comentario textarea {
+    width: 745px;
+    margin-bottom: 10px;
+}
+
+.posicion-btn {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.rating.nota-titular,
+.rating.nota-listada {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    color: #ddd;
+    height: 34px;
+    padding: 7.5px 0px 7.5px 0;
+}
+
+.rating.nota-titular label {
+    width: 22px;
+}
+
+.rating.nota-titular label i {
+    font-size: 18px;
+}
+
+.rating.nota-listada label {
+    width: 18px;
+}
+
+.rating.nota-listada label i {
+    font-size: 16px;
+}
+
+.rating.nota-listada p {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.btn-mini {
+    height: 26px;
+    margin-left: 10px;
+}
+
+.posicion-btn-mini {
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Buscador por fechas */
+.busca-principal-fecha {
+    width: 608px;
+    margin-right: 6px;
+}
+
+.busca-fechas {
+    width: 170px;
+    margin-right: 6px;
+}
+
+/**** CSS Nuevo para iteracion2 ***/
+/***** Modificar Actividades ***/
+.quick-info ul.menu-modificar {
+    justify-content: left;
+}
+
+.quick-info ul.menu-modificar li {
+    margin-right: 25px;
+    padding-right: 25px;
+}
+.hide {
+    display: none;
+}
+p#pGratis {
+    width: 300px;
+    margin-left: 175px;
+}
+p#pGratis em {
+    font-weight: bold;
+}
+main#registro-actividades textarea#txtDescripcionActividad {
+    height: 160px;
+}
+
+#lista-actividades ul.menuOpciones a.btn-uno {
+    width: 100px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 0;
+}
+label.habilitada {
+    color: #2ecc40;
+}
+label.deshabilitada {
+    color: #ff4136;
+}
+
+#lista-actividades ul.menuOpciones a.btn-uno:hover {
+    background-color: #027faf;
+    color: #fff;
+}
+
+.no-cupos {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #ff4136;
+}
+
+ul.lista-opciones li {
+    text-align: left;
+    line-height: 1;
+}
+
+ul.lista-opciones input {
+    height: auto;
+}
+
+ul.lista-opciones li a {
+    margin-left: 5px;
+}
+
+/****Manuel Delgado****/
+p.intro-texto {
+    margin-bottom: 20px;
+}
+
+/* Rating System */
+b.rating-number,
+output {
+    margin-right: 10px;
+    color: #888;
+}
+
+div.rating {
+    display: inline;
+}
+/****Manuel Delgado****/

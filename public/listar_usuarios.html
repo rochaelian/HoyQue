@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>
+        ¿Hoy Qué? - Lista de usuarios
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="¿Hoy Qué? - Tu espacio virtual para conocer lo que habrá hoy en Costa Rica">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+13px">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+
+    <!--Hojas de estilos generales-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <!--Hojas de estilos personalizadas para cada página-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-fondo">
+        <div class="header-principal">
+            <div class="header-izquierdo">
+                <a href="index.html">
+                    <img src="imgs/Logo_HoyQue.png" class="logo-principal" alt="Logo ¿Hoy Qué?">
+                </a>
+            </div>
+            <div class="header-derecho">
+                <!-- Nav Menu -->
+                <nav class="nav-principal">
+                    <ul class="nav-lista">
+                        <li>
+                            <a class="ocultar" href="listar_usuarios.html">Usuarios</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="lugares.html">Lugares</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_actividades.html">Actividades</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_patrocinadores.html">Patrocinadores</a>
+                        </li>
+                        <li>
+                            <a class="ocultar menu-usuario" href="perfil_cliente.html">
+                                <figure class="header-usuario">
+                                    <img id="imagenMenu" src="imgs/usuario.png" alt="Usuario">
+                                </figure>
+                                <span id="nombreUsuario"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="inicio_sesion.html">Cerrar Sesión</a> <!--antes estaba cerrar-sesion-->
+                        </li>
+                        <li>
+                            <a href="registro_usuario.html">Regístrate</a>
+                        </li>
+                        <li>
+                            <a href="inicio_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor-buscador">
+        <div class="busca-informacion">
+            <form class="form-buscador">
+                <input type="text" id="txtFiltro" class="busca-principal" placeholder="Buscar por...">
+                <span class="buscador"><i class="fas fa-search"></i></span>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main -->
+    <main id="listar-usuarios">
+        <header class="header-pagina">
+            <h1>Lista de usuarios</h1>
+            <p class="intro-texto">Esta es la lista de todos los usuarios (clientes y empresas) que hay hoy disponibles. Los clientes estan
+                ordenadas en orden alfabético.</p>
+        </header>
+        <!-- Section -->
+        <section id="lista-clientes">
+            <table id="listaUsuarios">
+                <thead>
+                    <tr>
+                        <th>Nombre del Usuario</th>
+                        <th>Nombre único</th>
+                        <th>Correo</th>
+                        <th>Identificación</th>
+                        <th>Edad</th>
+                        <th>Foto</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <a></a>
+                            <a></a>
+                            <a></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!-- actividad -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-fondo">
+        <div class="footer-principal">
+            <div class="footer-izquierda">
+                <div class="logos-footer">
+                    <a href="#" target="_blank">
+                        <img src="imgs/Logo_Camaleon.png" class="logos logo-camaleon" alt="Logo Camaleón">
+                    </a>
+                </div>
+                <div class="logos-footer">
+                    <img src="imgs/UCenfotec.png" class="logos" alt="Logo U Cenfotec">
+                </div>
+            </div>
+            <div class="footer-derecha">
+                <p>Para más información: admin@hoyque.co.cr</p>
+                <div class="redes-sociales">
+                    <a href="#" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p>© 2018 Camaleón, Inc.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Java Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.28.1/sweetalert2.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="js/svcs_imagen.js"></script>
+    <script src="js/svcs_reg_usuario.js"></script>
+    <script src="js/cntlr_nav.js"></script>
+    <script src="js/svcs_reg_usuario.js"></script>
+    <script src="js/svcs_bitacora.js"></script>
+    <script src="js/cntlr_listar_usuarios.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+</body>
+
+</html>

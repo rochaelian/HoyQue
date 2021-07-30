@@ -1,0 +1,40 @@
+.error_input{
+    border: 2px solid #eb4d4b;  
+}
+
+form#inicioSesion h1{
+    /*margin-left: 60px;*/
+    text-align: center;
+}
+
+form#inicioSesion{
+    width: 500px;
+    height: 300px;
+    margin: 75px 0px 0px 250px;
+}
+
+form#inicioSesion input{
+    width: 400px;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 45px;
+}
+
+a#aInicioSesion{
+    margin-left: 300px;
+}
+
+button#btnIngresar{
+    height: 34px;
+    padding: 0 20px;
+    background-color: #f7882f;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 0px 190px;
+}
+
+button#btnIngresar:hover{
+    background-color: #f57209;
+}

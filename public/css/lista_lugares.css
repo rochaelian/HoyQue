@@ -1,0 +1,96 @@
+/***** Lista de Lugares *****/
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.grid-uno-dos-uno {
+    grid-template-columns: 235px 585px 120px;
+    height: auto;
+    border-bottom: 1px solid #b2bec3;
+}
+
+.grid-uno-dos-uno .columna {
+    padding: 20px 5px;
+}
+
+.columna .subir-imagenes {
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.columna .subir-imagenes img {
+    width: 225px;
+}
+
+.columna p {
+    padding: 10px 0;
+}
+
+.caracteristicas li {
+    display: inline-block;
+    width: 189.6px;
+    border-right: 1px solid #b2bec3;
+    text-align: center;
+}
+
+.caracteristicas li:last-child {
+    border-right: none;
+}
+
+input[type="checkbox"] {
+    height: auto;
+    padding: 0;
+    margin: 4px 8px 4px 0;
+}
+
+label {
+    width: 86px;
+    text-align: left;
+}
+
+label.deshabilitado {
+    color: #d33;
+}
+
+label.aprobar {
+    color: #27ac36;
+}
+
+.btn-uno,
+.btn-dos {
+    height: 26px;
+    width: 104px;
+    margin-top: 5px;
+}
+
+.btn-tres {
+    float: right;
+}
+
+.columna .rating p {
+    padding: 10px;
+}
+
+.ocultar{
+    display: none;
+}
+
+/* Rating System */
+b.rating-number {
+    margin-right: 10px;
+    color: #888;
+}
+
+div.rating {
+    display: inline;
+}

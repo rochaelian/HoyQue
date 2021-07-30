@@ -1,0 +1,99 @@
+/* section{
+    margin: 0 auto;
+} */
+
+section h2{
+    margin-top: 20px;
+    /* margin-right:350px; */
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+section label, p{
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+section input, select{
+    width: 295px;
+}
+
+section select{
+    height: 30px;
+}
+
+section #label3{
+    width: 497px;
+    margin-left: 50px;
+}
+
+section button{
+    margin: 0 auto;
+}
+
+section #label3 img, section #label3 button{
+    width: 100%;
+}
+
+section #botonActualizarPatrocinador {
+    margin-top: 15px;
+    margin-left: 436px;
+}
+
+section #botonRegistrarPatrocinador {
+    margin-top: 15px;
+    margin-left: 442px;
+}
+
+section table{
+    width: 100%;
+    /* margin: 0 auto;   */
+}
+
+
+section .tbl_patrocinadores thead tr th, .tbl_patrocinadores tbody tr td{
+    /* text-align: center; */
+}
+section table .imagenTabla{
+    width: 100px;
+}
+
+section table img{
+    width: 100%;
+}
+
+.ocultar{
+
+    display: none;
+    
+}
+
+.btn-registrar-diez{
+    margin-left: 731px;
+    padding: 10px 20px;
+    background-color: #5da2d5;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+.tbl_patrocinadores{
+    margin-top: 15px;
+}
+
+.fa, .fas{
+    margin-left: 10px;
+}
+
+.tbl_patrocinadores td:nth-child(3) {
+    text-align: center;
+}
+
+.tbl_patrocinadores tbody tr td:nth-child(1),
+.tbl_patrocinadores tbody tr td:nth-child(2) {
+    padding-left: 10px;
+}
+
+    

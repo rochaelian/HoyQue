@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>
+        ¿Hoy Qué? - Modificar categoría
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="¿Hoy Qué? - Tu espacio virtual para conocer lo que habrá hoy en Costa Rica">
+    <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.ico">
+    <!--Hojas de estilos-->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+13px">
+    <!--Hojas de estilos generales-->
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <!--Hojas de estilos personalizadas para cada página-->
+    <link rel="stylesheet" href="css/registrar_categorias.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header-fondo">
+        <div class="header-principal">
+            <div class="header-izquierdo">
+                <a href="index.html">
+                    <img src="imgs/Logo_HoyQue.png" class="logo-principal" alt="Logo ¿Hoy Qué?">
+                </a>
+            </div>
+            <div class="header-derecho">
+                <!-- Nav Menu -->
+                <nav class="nav-principal">
+                    <ul class="nav-lista">
+                        <li>
+                            <a class="ocultar" href="listar_usuarios.html">Usuarios</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="lugares.html">Lugares</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_actividades.html">Actividades</a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="listar_patrocinadores.html">Patrocinadores</a>
+                        </li>
+                        <li>
+                            <a class="ocultar menu-usuario" href="perfil_usuario.html">
+                                <figure class="header-usuario">
+                                    <img id="imagenMenu" src="imgs/usuario.png" alt="Usuario">
+                                </figure>
+                                <span id="nombreUsuario"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="ocultar" href="cerrar-sesion.html">Cerrar Sesión</a>
+                        </li>
+                        <li>
+                            <a href="registro_usuario.html">Regístrate</a>
+                        </li>
+                        <li>
+                            <a href="inicio_sesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="contenedor-no-busca">
+    </div>
+
+    <!-- Main -->
+    <main>
+
+        <!-- Section -->
+        <section>
+            <form class>
+                <h2>Modificar categoría</h2>
+                <div id="label1">
+                    <label for="nCategoria">Nombre de la categoría</label>
+                    <input type="text" id="nCategoria" placeholder="Digite el nombre de la categoría">
+                </div>
+                <div id="label2">
+                    <label for="txtCategoria">Descripción de la categoría</label>
+                    <textarea id="txtCategoria" cols="30" rows="10" placeholder="Describa la categoría"></textarea>
+                </div>
+
+                <button type="button" id="botonActualizar" class="btn-uno">Actualizar</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer-fondo">
+        <div class="footer-principal">
+            <div class="footer-izquierda">
+                <div class="logos-footer">
+                    <a href="camaleon.html" target="_blank">
+                        <img src="imgs/Logo_Camaleon.png" class="logos logo-camaleon" alt="Logo Camaleón">
+                    </a>
+                </div>
+                <div class="logos-footer">
+                    <img src="imgs/UCenfotec.png" class="logos" alt="Logo U Cenfotec">
+                </div>
+            </div>
+            <div class="footer-derecha">
+                <p>Para más información: admin@hoyque.co.cr</p>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p>© 2018 Camaleón, Inc.</p>
+                <p>Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Java Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/svcs_imagen.js"></script>
+    <script src="js/svcs_reg_usuario.js"></script>
+    <script src="js/cntlr_nav.js"></script>
+    <script src="js/svcs_bitacora.js"></script>
+    <script src="js/svcs_categorias.js"></script>
+    <script src="js/cntlr_modificar_categoria.js"></script>
+    <script src='https://cdn.jsdelivr.net/jquery.cloudinary/1.0.18/jquery.cloudinary.js' type='text/javascript'></script>
+    <script src="https://widget.cloudinary.com/global/all.js" type="text/javascript"></script>
+</body>
+
+</html>

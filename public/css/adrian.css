@@ -1,0 +1,61 @@
+.grid-uno {
+    display: center;
+    
+}
+
+#txtNombre{
+    margin: 12px;
+    width: 279px;
+}
+
+#txtDescripcion{
+    margin: 8px;
+}
+
+
+#lblNombre{
+    width: 77px;
+
+}
+.contenedor-registro,
+h2 {
+    
+        width: 470px;
+        margin: 0 auto;
+    
+}
+
+h2{
+    margin-bottom: 35px;
+    
+}
+
+#h2L{
+margin-top: 10px;
+}
+
+
+section h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section table{
+    width: 672px;
+    margin-left: 169px;
+}
+
+section .tbl_palabracl thead tr th, .tbl_palabracl tbody tr td{
+    text-align: center;
+}
+
+.btn-registrar-diez-cl{
+    margin-left: 735px;
+    height: 40px;
+    padding: 10px 20px;
+    background-color: #5da2d5;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}

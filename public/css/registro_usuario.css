@@ -1,0 +1,185 @@
+.error_input{
+    border: 2px solid #eb4d4b;  
+}
+
+.error_sexo{
+
+color: red;
+border-color: #f57209;
+
+}
+
+
+.ocultar{
+    display: none;
+}
+
+h1#h1RegUser{
+    height: 60px;
+}
+
+label{
+    width: 320px;
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 0px; 
+}
+
+#select{
+    width: 320px;
+    height: 34px;
+}
+
+.grid-tres label{
+    width: 450px; /*estaba en 320px sst*/
+    display: inline-block;
+    font-size: 18px;
+    margin: 8px 0px; 
+}
+
+.grid-tres label#lblGen{
+    width: 115px;
+}
+
+.grid-tres label#lblGenF{
+    width: 115px;
+}
+
+.grid-tres label#lblGenM{
+    width: 115px;
+}
+
+
+
+.grid-tres label#subirFoto{
+    width: 100px;
+    margin-left: 110px;
+   
+}
+
+.grid-tres input{
+    width: 320px;
+}
+
+.grid-tres input#Empresa{
+    width: 30px;
+    margin-top: -5px;
+    height: 13px;
+}
+
+#frmUno{
+    padding-top: 46px; /*estaban 35px sst*/
+}
+
+#frmDos{
+    padding-top: 46px;  /*estaban 35px sst y antes era ID ahora es class*/
+}
+
+.grid-tres input#Cliente{
+    width: 30px;
+    margin-top: -5px;
+    height: 13px;
+}
+
+
+.grid-tres input#Masculino{
+    width: 30px;
+    margin-top: -5px;
+    height: 13px;
+}
+
+.grid-tres input#Femenino{
+    width: 30px;
+    margin-top: -5px;
+    height: 13px;
+}
+
+.grid-tres input#txtConfirma{
+
+margin-top: 30px;
+
+}
+.fotoCliente{
+    height: 210px;  
+    margin-top: 72px;  /*estaba en -62px SST*/
+    /*margin-left: 50px;*/
+}
+
+
+#divbtnRegistrar{
+
+    align-content: center;  /*agregado sst*/
+    
+    }
+
+button#btnRegistrar{
+    height: 34px;
+    padding: 0 20px;
+    background-color: #f7882f;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    /*border-radius: 5px;*/
+    /* margin: 40px 0px 0px -240px; sst */
+    margin: 15px auto;
+    display: block;
+}
+
+button#btnRegistrar:hover{
+    background-color: #f57209;
+}
+
+button#btnAgregarImagen.boton_imagen{
+
+    /*margin-left: 110px;
+    margin-top: 15px;*/
+    width: 315px;  /*estaba 100% sst*/
+    height: 32px;
+
+}
+
+.imagenTabla{
+
+    height: 50px;
+    width: 50px;
+
+
+
+}
+
+
+/*Agregue los siguientes ocultar SST*/
+    
+
+.ocultar{
+
+    display: none;
+    
+    
+    
+    }
+    
+    
+    .ocultarDos{
+    
+        display: grid;
+        grid-column-gap: 20px;
+        grid-template-columns: 490px 490px;
+      
+    
+    }
+    
+    
+    .ocultarTres{
+    
+        margin: -33px 0px 0px -411px;
+    
+    }
+    
+    
+    .ocultarCuatro{
+    
+        margin-left: 150px; /*SSTv2 estaba en 80px*/
+        width: 450px;
+    
+    }

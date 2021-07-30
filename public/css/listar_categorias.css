@@ -1,0 +1,96 @@
+section h2{
+    /* margin-left: 110px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section table{
+    width: 100%;
+    margin-top: 15px;
+    /* margin-left: 169px; */
+}
+
+section .tbl_categorias thead tr th, .tbl_categorias tbody tr td{
+    /* text-align: center; */
+}
+
+section .tbl_categorias th:first-child {
+    width: 200px;
+}
+
+.ocultar{
+
+    display: none;
+    
+}
+
+.btn-registrar-diez{
+    margin-left: 736.5px;
+    padding: 10px 20px;
+    background-color: #5da2d5;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+}
+
+#input_buscar_{
+    margin-left: 169px;
+    width: 250px;
+}
+
+.fa, .fas{
+    margin-left: 10px;
+}
+
+/* Tabla bitacoras*/
+
+.tbl_bitacoras{
+    /* margin: 0 auto; */
+    /* width: 900px; */
+}
+
+.tbl_bitacoras #tblCorreo{
+    width: 150px;
+}
+
+.tbl_bitacoras #tblFecha{
+    width: 100px;
+}
+
+.tbl_bitacoras .tblcelda{
+    width: 150px;
+}
+
+.tbl_bitacoras #tblAccion{
+    width: 350px;
+}
+
+/*Reportes*/
+
+#reportesid input{
+    display: inline-table;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+#reportesid p{
+    display: inline-table;
+    margin: 0px;
+}
+
+#uno, #dos, #tres{
+    display: inline-table;
+}
+
+#uno{
+    margin-left: 120px;
+}
+
+#dos{
+    margin-left: 120px;
+}
+
+#tres{
+    margin-left: 120px;
+}
+

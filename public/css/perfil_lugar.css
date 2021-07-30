@@ -1,0 +1,238 @@
+/***** Perfiles: Lugares *****/
+
+.contenedor-img-expandida {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.img-expandida {
+    width: 1000px;
+}
+
+h2 {
+    padding: 45px 0 10px 0;
+}
+
+h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.grid-uno-dos-uno {
+    grid-template-columns: 235px 585px 120px;
+}
+
+table, td {
+    border: none;
+}
+
+table tr {
+    height: auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+table td {
+    padding: 20px 5px;
+}
+
+table td img {
+    width: 225px;
+}
+
+table td p {
+    padding: 10px 0;
+}
+
+.acciones li {
+    display: inline-block;
+    width: 45px;
+    text-align: left;
+}
+
+.caracteristicas li {
+    display: inline-block;
+    width: 189.6px;
+    border-left: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.caracteristicas li:first-child {
+    padding-left: 0;
+    text-align: left;
+    border-left: none;
+}
+
+.acciones,
+.caracteristicas {
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    height: auto;
+    padding: 0;
+    margin: 4px 0;
+}
+
+label {
+    width: 86px;
+    text-align: left;
+}
+
+.btn-uno.mini,
+.btn-dos.mini {
+    height: 26px;
+    margin-top: 5px;
+}
+
+.info-titular {
+    padding-top: 45px;
+    text-align: right;
+}
+
+.rating-titular,
+.btn-titular {
+    float: right;
+}
+
+.perfil-texto {
+    margin-bottom: 15px;
+}
+
+.rating.nota-titular label {
+    width: 22px;
+}
+
+.rating.nota-titular label i {
+    font-size: 18px;
+}
+
+
+.rating.nota-listada label {
+    width: 18px;
+}
+
+.rating.nota-listada label i {
+    font-size: 16px;
+}
+
+.rating.nota-listada p {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.cargar-mapa {
+    height: 150px;
+    text-align: right;
+    border: 1px solid #bbb;
+}
+
+/* Comentarios */
+
+.lista-comentarios,
+.agregar-comentario {
+    margin-bottom: 20px;
+}
+
+.entrada-comentario,
+.entrada-actividad {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.posicion-comentario {
+    width: 490px;
+    margin-bottom: 10px;
+}
+
+.entrada-comentario label {
+    font-weight: bold;
+    width: auto;
+}
+
+.posicion-calificacion {
+    width: 490px;
+    text-align: right;
+}
+
+.agregar-comentario textarea {
+    width: 490px;
+    margin-bottom: 10px;
+}
+
+.posicion-btn {
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Actividades */
+
+.lado-izq,
+.lado-der {
+    float: left;
+}
+
+.lado-izq .subir-imagenes {
+    display: flex;
+    align-items: center;
+    width: 225px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.lado-der {
+    margin-left: 20px;
+    width: 245px;
+}
+
+.lado-izq .subir-imagenes img {
+    width: 225px;
+}
+
+.caracteristicas-Activ li {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.entrada-actividad p {
+    padding: 10px 0;
+}
+
+.btn-mini {
+    height: 26px;
+    margin-left: 10px;
+}
+
+.posicion-btn-mini {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.ocultar{
+    display: none;
+}
+
+/* Rating System */
+.contenedor-rating {
+    /*float: right;
+    width: 189.6px;*/
+    width: 100%;
+    padding: 10px 0;
+    text-align: right;
+}
+
+/*.contenedor-rating.nota-titular {
+    padding-right: 30px;
+}*/
+
+b.rating-number,
+output {
+    margin-right: 10px;
+    color: #888;
+}
+
+div.rating {
+    display: inline;
+}

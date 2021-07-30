@@ -1,0 +1,71 @@
+/***** Index *****/
+
+h1 {
+    padding: 35px 0 15px 0;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("../imgs/fondo_1.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+main .sobre-imagen {
+    
+    padding-top: 225px;
+}
+
+.sobre-imagen .contenedor-buscador {
+    height: 180px;
+    background-color: rgba(0,0,0,0.55);
+}
+
+.sobre-imagen .busca-informacion {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+.sobre-imagen .btn-buscador {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    font-size: 20px;
+    color: #fff;
+    padding: 6px;
+    background: #f7882f;
+    border: 1px solid #f7882f;
+}
+
+.sobre-imagen .btn-buscador:hover {
+    background: #f57209;
+    border: 1px solid #f57209;
+}
+
+.form-buscador div {
+    height: 34px;
+    width: 340px;
+    margin: 0 auto;
+}
+
+.form-buscador div input {
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.form-buscador .data-que-hacer {
+    width: 300px;
+    margin-right: 6px;
+}
+
+.form-buscador .busca-principal {
+    width: 760px;
+    margin-right: 6px;
+}
+

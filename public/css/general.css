@@ -1,0 +1,219 @@
+/***** Estilos Generales *****/
+
+html {
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background: #f8f8f8;
+    color: #333;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p, td {
+    line-height: 1.5;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Header */
+
+.header-fondo {
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.header-principal {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.header-izquierdo {
+    float: left;
+    height: 70px;
+}
+
+.header-izquierdo .logo-principal {
+    height: 46px;
+    width: auto;
+    margin: 12px;
+}
+
+.header-derecho {
+    float: right;
+    height: 70px;
+}
+
+.header-derecho .nav-principal {
+    float: right;
+    height: 70px;
+}
+
+.nav-principal .nav-lista li {
+    float: left;
+    height: 70px;
+}
+
+.nav-principal .nav-lista li a {
+    display: block;
+    height: 70px;
+    padding: 28px 12px;
+    color: #333;
+    text-decoration: none;
+    border-left: 1px solid #fafafa;
+    line-height: 0.75;
+}
+
+.nav-principal .nav-lista li a:hover {
+    color: #f7882f;
+}
+
+.nav-principal .nav-lista li .menu-usuario {
+    padding: 15px 12px;
+}
+
+/** Nuevo cambio Manuel Delgado **/
+.nav-principal .nav-lista li a .header-usuario {
+    float: left;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #f2f2f2;
+}
+
+.nav-principal .nav-lista li .menu-usuario span {
+    float: left;
+    height: 40px;
+    padding: 12px 0 12px 6px;
+    line-height: 0.85;
+}
+
+/*.nav-principal .nav-lista li:first-child a {
+    border-left: none;
+}*/
+
+.nav-lista li .header-usuario img {
+    /*height: 40px;*/
+    width: 40px;
+}
+
+/*********/
+
+/* Estado Oculto Menu */
+.nav-principal .nav-lista li a.ocultar{
+    display: none;
+}
+
+/*** Nav Secundario ***/
+/*.nav-secundario {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+.nav-secundario h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.nav-secundario ul li {
+    display: inline;
+    margin-right: 25px;
+}*/
+
+/* Body */
+
+main {
+    min-height: 500px;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px 12px;
+    background-color: #fff;
+}
+
+/* Footer */
+
+.footer-fondo {
+    width: 100%;
+    height: 203px;
+    background-color: #027faf;
+    border-top: 3px solid #5da2d5;
+}
+
+.footer-principal {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-izquierda {
+    float: left;
+    padding: 70px 0;
+}
+
+.footer-izquierda .logos-footer {
+    float: left;
+    height: 60px;
+    border-right: 1px solid #5da2d5;
+    padding: 0 12px;
+}
+
+.footer-izquierda .logos-footer:last-child {
+    border-right: none;
+} 
+
+.logos-footer .logos {
+    height: 60px;
+    opacity: 0.6;
+}
+
+.logos-footer .logo-camaleon:hover {
+    opacity: 0.8;
+}
+
+.footer-derecha {
+    float: right;
+    height: 200px;
+    padding: 50px 12px;
+    text-align: right;
+}
+
+.footer-derecha p {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.redes-sociales a {
+    display: inline-block;  
+    width: 33px;
+    height: 33px;
+    margin: 8.5px 2.5px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.6;
+}
+
+.redes-sociales a:hover {
+    opacity: 0.8;
+}
+
+.redes-sociales a i {
+    width: 33px;
+    margin: 6.5px 0;
+    color: #027faf;
+    font-size: 20px;
+    text-align: center;
+}
